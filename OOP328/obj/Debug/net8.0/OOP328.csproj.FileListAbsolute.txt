@@ -12,8 +12,8 @@ C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\refint\OOP328.dll
 C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.pdb
 C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.genruntimeconfig.cache
 C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\ref\OOP328.dll
-C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\User.dll
-C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\User.pdb
 C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.csproj.AssemblyReference.cache
 C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.sourcelink.json
 C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.csproj.Up2Date
+C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\AllClass.dll
+C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\AllClass.pdb

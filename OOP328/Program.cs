@@ -1,12 +1,14 @@
 ﻿using System.Diagnostics;
-using User;
+using AllClass;
 namespace OOP328
 {
 
 
-    //Задание 1. Создать класс human.
-    //В основном методе класса human, создать экземпляр класса и создать инициализацию объекта класса, присвоив полю name значение "Bob", а к полю age, значение 19.
-    //Для класса human создать библиотеку классов user, в библиотеке классов указать два поля строкового типа данных, name и age. 
+    //Задание 1. Разработать перегрузку методов нахождения суммы 2, 3, 4 чисел.
+
+    //Задание 2. Разработать программу, в которой нужно ввести ФИО студента и его группу.Требуется сделать проверку по группе. 
+    //Если введенная группа не совпадает с группой ПО-328, то вывести сообщение "Группа не совпадает", а если совпадает, то вывести сообщение 
+    //"Группа совпадает"
 
 
 
@@ -14,9 +16,25 @@ namespace OOP328
     {
         static void Main(string[] args)
         {
-           Human human = new Human("Bob", 19);
+            Calculator calculator = new Calculator();
+            GroupCheck groupCheck = new GroupCheck();
 
-           human.getInfo();
+            calculator.Sum(1, 2);
+            calculator.Sum(1, 2, 3);
+            calculator.Sum(1, 2, 3, 4);
+
+
+            Console.WriteLine();
+
+            groupCheck.Name = "Пузырев";
+            groupCheck.Group = "ПО-328";
+
+            Console.WriteLine(groupCheck.Name);
+            Console.WriteLine(groupCheck.Group);
+            
+            groupCheck.Group = "nigga";
+
+            Console.WriteLine(groupCheck.Group);
         }  
     }
 }
