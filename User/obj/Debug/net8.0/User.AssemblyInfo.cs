@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("OOP328")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("User")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30c4c8b4147f447be98db29dddc581a4e873c8b1")]
-[assembly: System.Reflection.AssemblyProductAttribute("OOP328")]
-[assembly: System.Reflection.AssemblyTitleAttribute("OOP328")]
+[assembly: System.Reflection.AssemblyProductAttribute("User")]
+[assembly: System.Reflection.AssemblyTitleAttribute("User")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "OOP328/1.0.0": {
+        "dependencies": {
+          "User": "1.0.0"
+        },
         "runtime": {
           "OOP328.dll": {}
+        }
+      },
+      "User/1.0.0": {
+        "runtime": {
+          "User.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "OOP328/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "User/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
