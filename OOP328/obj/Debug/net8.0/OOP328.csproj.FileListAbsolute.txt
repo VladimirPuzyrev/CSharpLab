@@ -1,0 +1,14 @@
+C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\OOP328.exe
+C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\OOP328.deps.json
+C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\OOP328.runtimeconfig.json
+C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\OOP328.dll
+C:\Users\vladi\source\repos\OOP328\OOP328\bin\Debug\net8.0\OOP328.pdb
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.AssemblyInfoInputs.cache
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.AssemblyInfo.cs
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.csproj.CoreCompileInputs.cache
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.dll
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\refint\OOP328.dll
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.pdb
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\OOP328.genruntimeconfig.cache
+C:\Users\vladi\source\repos\OOP328\OOP328\obj\Debug\net8.0\ref\OOP328.dll
