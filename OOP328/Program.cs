@@ -1,14 +1,17 @@
 ﻿using System.Diagnostics;
+using System.Net;
+using System.Runtime.Intrinsics.X86;
 using AllClass;
 namespace OOP328
 {
 
 
-    //Задание 1. Разработать перегрузку методов нахождения суммы 2, 3, 4 чисел.
-
-    //Задание 2. Разработать программу, в которой нужно ввести ФИО студента и его группу.Требуется сделать проверку по группе. 
-    //Если введенная группа не совпадает с группой ПО-328, то вывести сообщение "Группа не совпадает", а если совпадает, то вывести сообщение 
-    //"Группа совпадает"
+    //Задание 1. Создать программу для авторизации пользователя.Создать класс authorization.Создать поля: имя и пароль.
+    //Уровень доступа переменной пароля и переменной повторного пароля, должны быть определены модификатором 
+    //private и содержать свойства записи и чтения.В методе нужно создать экземпляр user1.
+    //Требуется ввести имя пользователя, затем ввести пароль, и далее ввести пароль повторно.Если пароль совпадает, то вывести сообщение,
+    //"Добро пожаловать!". Если пароль не совпадает, то вывести сообщение, "Введите пароль заново!". Ввод пароля осуществляется до тех пор, 
+    //пока не будет введен верный пароль.
 
 
 
@@ -16,25 +19,12 @@ namespace OOP328
     {
         static void Main(string[] args)
         {
-            Calculator calculator = new Calculator();
-            GroupCheck groupCheck = new GroupCheck();
 
-            calculator.Sum(1, 2);
-            calculator.Sum(1, 2, 3);
-            calculator.Sum(1, 2, 3, 4);
+            AllClass.Authorization authorization = new AllClass.Authorization();
+
+            authorization.setMethod();
 
 
-            Console.WriteLine();
-
-            groupCheck.Name = "Пузырев";
-            groupCheck.Group = "ПО-328";
-
-            Console.WriteLine(groupCheck.Name);
-            Console.WriteLine(groupCheck.Group);
-            
-            groupCheck.Group = "nigga";
-
-            Console.WriteLine(groupCheck.Group);
         }  
     }
 }
