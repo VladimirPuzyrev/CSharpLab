@@ -6,25 +6,27 @@ namespace OOP328
 {
 
 
-    //Задание 1. Создать программу для авторизации пользователя.Создать класс authorization.Создать поля: имя и пароль.
-    //Уровень доступа переменной пароля и переменной повторного пароля, должны быть определены модификатором 
-    //private и содержать свойства записи и чтения.В методе нужно создать экземпляр user1.
-    //Требуется ввести имя пользователя, затем ввести пароль, и далее ввести пароль повторно.Если пароль совпадает, то вывести сообщение,
-    //"Добро пожаловать!". Если пароль не совпадает, то вывести сообщение, "Введите пароль заново!". Ввод пароля осуществляется до тех пор, 
-    //пока не будет введен верный пароль.
 
-
+        
 
     internal class Program
     {
         static void Main(string[] args)
         {
 
-            AllClass.Authorization authorization = new AllClass.Authorization();
+            State state1 = new State(50000, 123);
+            State state2 = new State(30000, 0000);
 
-            authorization.setMethod();
+            State state3 = state1 + state2;
+            bool isGreater = state1 > state2;
 
+            state3.GetState();
 
-        }  
+            Console.WriteLine(isGreater);
+        }
     }
+
+
+
+
 }
