@@ -14,15 +14,22 @@ namespace OOP328
         static void Main(string[] args)
         {
 
-            State state1 = new State(50000, 123);
-            State state2 = new State(30000, 0000);
+            //State state1 = new State(50000, 123);
+            //State state2 = new State(30000, 0000);
 
-            State state3 = state1 + state2;
-            bool isGreater = state1 > state2;
+            //State state3 = state1 + state2;
+            //bool isGreater = state1 > state2;
 
-            state3.GetState();
+            //state3.GetState();
 
-            Console.WriteLine(isGreater);
+            //Console.WriteLine(isGreater);
+
+
+            Dictionary dictionary = new Dictionary();
+
+            Console.WriteLine(dictionary["red"]);
+
+            dictionary.PrintAll();
         }
     }
 
