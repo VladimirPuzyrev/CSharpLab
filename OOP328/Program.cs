@@ -15,19 +15,21 @@ namespace OOP328
         static void Main(string[] args)
         {
 
-            Student Bob = new Student("Bob");
-            Group Sam = new Group("Sam", "333");
+            Student Ivan = new Student("Ivan Ivanovich Ivanov", "pup");
 
+            Ivan.GetInfo();
 
-            Console.Write("Введите имя для поиска: ");
-            string inputName = Console.ReadLine();
-     
-            if (inputName == Sam.Name)
-            {
-                Sam.GetOutput();
-            }else{
-                Console.WriteLine("В группе №333 такого имени не существует");
-            }
+            Teacher Marina = new Teacher("Marina Marina Marina", "Math");
+
+            Marina.GetInfo();
+
+            MyObject1<int> myObject1 = new MyObject1<int>(231);
+
+            MyObject3<string, int, double> myObject3 = new MyObject3<string, int, double>("Bob", 23, 33.21);
+
+            myObject1.GetInfo();
+
+            myObject3.GetInfo();
 
         }
     }
