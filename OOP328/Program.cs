@@ -15,14 +15,19 @@ namespace OOP328
         static void Main(string[] args)
         {
 
-            //R r = new R();
+            Student Bob = new Student("Bob");
+            Group Sam = new Group("Sam", "333");
 
-            Clock clock = new Clock();
-            int val = 34;
-            clock.Hours = val % 24;
-            val = clock.Hours;
 
-            Console.WriteLine(val);
+            Console.Write("Введите имя для поиска: ");
+            string inputName = Console.ReadLine();
+     
+            if (inputName == Sam.Name)
+            {
+                Sam.GetOutput();
+            }else{
+                Console.WriteLine("В группе №333 такого имени не существует");
+            }
 
         }
     }
